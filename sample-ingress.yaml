@@ -15,7 +15,7 @@ metadata:
 spec:
   ingressClassName: traefik-external
   rules:
-    - host: testr.illusto.com
+    - host: testr.random.com
       http:
         paths:
           - path: /
