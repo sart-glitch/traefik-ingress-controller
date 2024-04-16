@@ -9,7 +9,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`testr.illusto.com`) && PathPrefix(`/`)
+    - match: Host(`testr.random.com`) && PathPrefix(`/`)
       kind: Rule
       services:
         - name: app-service
